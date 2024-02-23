@@ -5,11 +5,7 @@ import useCart from "@/hooks/use-cart";
 import CartItem from "./components/cart-item";
 import Summary from "./components/summary";
 
-interface CartPageProps {
-    
-}
- 
-const CartPage: React.FunctionComponent<CartPageProps> = () => {
+const CartPage = () => {
     
     const cart = useCart()
 
