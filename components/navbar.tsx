@@ -4,8 +4,6 @@ import MainNav from "@/components/main-nav";
 import getCategories from "@/actions/get-categories";
 import NavbarActions from "@/components/navbar-actions";
 
-interface NavbarProps {}
-
 const Navbar = async () => {
     const categories = await getCategories();
 
